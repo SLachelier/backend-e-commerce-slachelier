@@ -5,12 +5,14 @@
 This is a backend application that provides routes, models, and seed data for an e-commerce website. Using Insomnia, I was able to verify that the routes are routing and populating correctly. Express.js, MySQL, and Sequelize were utilized in this project for backend development.
 
 ## User Story
+
 ```
 AS A manager at an internet retail company
 I WANT a back end for my e-commerce website that uses the latest technologies
 SO THAT my company can compete with other e-commerce companies```
 
 ## Acceptance Criteria
+
 ```
 GIVEN a functional Express.js API
 WHEN I add my database name, MySQL username, and MySQL password to an environment variable file
@@ -27,6 +29,7 @@ THEN I am able to successfully create, update, and delete data in my database
 
 ## Installation
 Once the repository is downloaded, you will want to ensure that these folders are already present:
+
 ```
 .
 ├── config/             
@@ -56,6 +59,7 @@ Once the repository is downloaded, you will want to ensure that these folders ar
 ├── package.json
 └── server.js               // runs the application
 ```    
+
 You will need node.js on your computer to run this application, as well as all of the dependencies in the package. Run `npm init` and `npm i` in the terminal to initialize and install the packages.
 
 ## Usage
